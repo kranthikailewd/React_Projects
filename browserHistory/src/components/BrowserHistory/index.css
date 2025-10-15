@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto';
+  height: 100vh;
+}
+#root {
+  height: 100%;
+}
+.main_container {
+  height: 100%;
+}
+.nav_section {
+  display: flex;
+  gap: 100px;
+  padding: 15px;
+  align-items: center;
+  background-color: #3367d6;
+  height: 60px;
+  padding-right: 100px;
+}
+.nav_img {
+  height: 30px;
+  margin: 0 30px;
+}
+.search_container {
+  display: flex;
+  height: 35px;
+  width: 100%;
+}
+.search_image {
+  padding: 4px 10px;
+  background-color: #2850a7;
+  border: 1px solid #6697ff;
+}
+input {
+  background-color: #2850a7;
+  color: #ececec;
+  border: 1px solid #6697ff;
+  outline: none;
+  padding-left: 10px;
+  width: 60%;
+}
+.history_items_box {
+  height: 92.5%;
+}
+.history_list_ul_parent {
+  display: flex;
+  justify-content: center;
+}
+.history_items_container {
+  box-shadow: 0px 4px 16px 0px #4755692c;
+  border-radius: 5px;
+  width: 50%;
+  margin-top: 40px;
+}
+.history_list_item {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+}
+.time {
+  font-size: 13px;
+  font-weight: 600;
+  width: 10%;
+}
+.history_item_details_and_delete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+}
+.history_item_details {
+  display: flex;
+  align-items: center;
+}
+.history_item_details img {
+  width: 16px;
+  margin-right: 12px;
+}
+.application_title {
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 7px;
+}
+.application_domain {
+  font-size: 11px;
+  color: #64748b;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin-left: auto;
+}
+button img {
+  width: 18px;
+}
+.empty_text_show_box {
+  height: 92.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.unavailable_list_text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+}
