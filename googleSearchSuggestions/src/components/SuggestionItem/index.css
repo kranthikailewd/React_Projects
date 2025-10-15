@@ -1,0 +1,21 @@
+.suggestion_item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 6px;
+  margin: 20px 0;
+}
+.suggestion_text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #475569;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+button img {
+  width: 16px;
+  height: 18px;
+}
