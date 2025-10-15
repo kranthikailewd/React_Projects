@@ -1,0 +1,16 @@
+li{
+  list-style: none;
+}
+button {
+  color: #d4d2db;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #d4d2db;
+  border-radius: 5px;
+  background-color: #382f5a;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px 0;
+  text-align: center;
+  width: 115px;
+}
