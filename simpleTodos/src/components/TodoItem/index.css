@@ -1,0 +1,16 @@
+.todo_container {
+  display: flex;
+  justify-content: space-between;
+}
+.todo_title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+}
+.todo_del_button {
+  cursor: pointer;
+  outline: none;
+  border: 1.5px solid #ff0b37;
+  border-radius: 5px;
+  padding: 6px 10px;
+}
