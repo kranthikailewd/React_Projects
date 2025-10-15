@@ -1,0 +1,14 @@
+.place_item {
+  width: 200px;
+  list-style: none;
+  margin: 20px;
+}
+.place_image {
+  width: 100%;
+  border-radius: 8px;
+}
+.place_para {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 15px;
+}
