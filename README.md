@@ -12,7 +12,7 @@ Click below to open any project live 🔗👇
 
 | # | ⚛️ Project Name | 🔗 Live Demo |
 |---|-----------------|---------------|
-| 1 | **Browser History** | [View Project](https://kranthikailewd.github.io/React_Projects/browserHistory) |
+| 1 | **Browser History** | [View Project](https://yksksl.csb.app/) |
 | 2 | **Cash Withdrawal** | [View Project](https://kranthikailewd.github.io/React_Projects/cashWithdrawal) |
 | 3 | **Destination Search** | [View Project](https://kranthikailewd.github.io/React_Projects/destinationSearch) |
 | 4 | **Even Odd App** | [View Project](https://kranthikailewd.github.io/React_Projects/evenOddApp) |
