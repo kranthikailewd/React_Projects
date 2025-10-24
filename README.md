@@ -15,7 +15,7 @@ Click below to open any project live 🔗👇
 | 1 | **Browser History** | [View Project](https://yksksl.csb.app/) |
 | 2 | **Cash Withdrawal** | [View Project](https://kranthikailewd.github.io/React_Projects/cashWithdrawal) |
 | 3 | **Destination Search** | [View Project](https://kranthikailewd.github.io/React_Projects/destinationSearch) |
-| 4 | **Even Odd App** | [View Project](https://kranthikailewd.github.io/React_Projects/evenOddApp) |
+| 4 | **Even Odd App** | [View Project](https://7jjxzt.csb.app/) |
 | 5 | **Fruits Counter** | [View Project](https://kranthikailewd.github.io/React_Projects/fruitsCounter) |
 | 6 | **Google Search Suggestions** | [View Project](https://kranthikailewd.github.io/React_Projects/googleSearchSuggestions) |
 | 7 | **Letters Calculator App** | [View Project](https://kranthikailewd.github.io/React_Projects/lettersCalculatorApp) |
