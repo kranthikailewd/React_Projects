@@ -27,6 +27,7 @@ Click below to open any project live 🔗👇
 | 13 | **Speedometer** | [View Project](https://2fw7k7.csb.app/) |
 | 14 | **Welcome App** | [View Project](https://jgznnj.csb.app/) |
 | 15 | **Feedback App** | [View Project](https://r7cc66.csb.app/) |
+| 16 | **Gallery App** | [View Project](https://ln5csz.csb.app/) |
 
 ---
 
