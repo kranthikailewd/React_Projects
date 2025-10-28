@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Bree Serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+}
+#root {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 70px;
+}
+.main_container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main_heading {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #1e293b;
+}
+.input_container {
+  background-color: transparent;
+  padding: 6px 4px;
+  border: 1px solid #7b8794;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+input {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  margin-left: 10px;
+  outline: none;
+  color: #1e293b;
+}
+.search_icon {
+  width: 18px;
+  height: 18px;
+}
+.tabs_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.apps_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 430px;
+}

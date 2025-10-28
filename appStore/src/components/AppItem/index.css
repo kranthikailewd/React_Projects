@@ -1,0 +1,46 @@
+.app_list_item {
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+.app_img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+.app_name_para {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (max-width: 426px) {
+  #root {
+    margin-top: 50px;
+  }
+  .main_heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .input_container{
+    margin-bottom: 20px;
+  }
+  .apps_container {
+    width: 261px;
+  }
+  .app_list_item {
+    width: 80px;
+    height: 100px;
+  }
+  .app_img {
+    width: 40px;
+  }
+  .app_name_para {
+    font-size: 12px;
+  }
+}
