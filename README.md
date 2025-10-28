@@ -28,6 +28,8 @@ Click below to open any project live 🔗👇
 | 14 | **Welcome App** | [View Project](https://jgznnj.csb.app/) |
 | 15 | **Feedback App** | [View Project](https://r7cc66.csb.app/) |
 | 16 | **Gallery App** | [View Project](https://ln5csz.csb.app/) |
+| 17 | **Capitals App** | [View Project](https://9mzjh5.csb.app/) |
+| 18 | **App Store** | [View Project](https://g4h99h.csb.app/) |
 
 ---
 
