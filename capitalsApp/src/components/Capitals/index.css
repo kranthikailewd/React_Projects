@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto';
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#root {
+  height: fit-content;
+  width: fit-content;
+  padding: 0 16px;
+}
+.main_container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+}
+.main_heading {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#drop_down {
+  outline: none;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+.questioning {
+  display: inline;
+  margin-left: 5px;
+  font-size: 14px;
+}
+.info {
+  font-size: 18px;
+  font-weight: 700;
+}
