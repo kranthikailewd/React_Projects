@@ -1,0 +1,15 @@
+li {
+  list-style: none;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.thumbnail {
+  width: 50px;
+  opacity: 0.4;
+}
+.active {
+  opacity: 1;
+}
