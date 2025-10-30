@@ -31,6 +31,8 @@ Click below to open any project live 🔗👇
 | 17 | **Capitals App** | [View Project](https://9mzjh5.csb.app/) |
 | 18 | **App Store** | [View Project](https://g4h99h.csb.app/) |
 | 19 | **Coin Toss Game** | [View Project](https://wwtzv4.csb.app/) |
+| 20 | **Reviews App** | [View Project](https://ys4jg7.csb.app/) |
+
 
 
 ---
