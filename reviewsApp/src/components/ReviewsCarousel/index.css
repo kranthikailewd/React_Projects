@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto';
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+}
+#root {
+  height: fit-content;
+  max-width: 500px;
+  padding: 0 30px;
+}
+.main_container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  text-align: center;
+}
+.main_heading {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.user_profile_pic {
+  width: 80px;
+}
+.arrows_name_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left_button,
+.right_button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+.arrow_img {
+  width: 26px;
+  margin: 10px;
+}
+.user_name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.company_name,
+.description {
+  font-size: 14px;
+  font-weight: 600;
+}
+.description{
+  height: 60px;
+}
