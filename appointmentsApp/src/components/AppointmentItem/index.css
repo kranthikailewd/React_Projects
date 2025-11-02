@@ -1,0 +1,80 @@
+.appointmentItem {
+  padding: 10px;
+  border: 1px solid #b5b7c4;
+  border-radius: 8px;
+  list-style: none;
+  width: 220px;
+}
+.title_star_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+.appointment_heading {
+  font-size: 13px;
+  font-weight: 700;
+  color: #171f46;
+}
+.star_button {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.star_image {
+  width: 20px;
+}
+.appointment_date {
+  font-size: 12px;
+  font-weight: 600;
+  color: #91939b;
+}
+
+/* -------------------------Mobile------------------------------ */
+
+@media (max-width: 426px) {
+  body{
+    min-height: 100vh;
+  }
+  #root {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 50px 30px;
+  }
+  .main_container {
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .inputs_image_container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .inputs_add_container {
+    width: auto;
+  }
+  .main_heading {
+    font-size: 20px;
+  }
+  .add_button {
+    font-weight: 700;
+    padding: 8px 16px;
+    width: 100%;
+  }
+  .main_img {
+    width: 70%;
+    margin: auto;
+  }
+  .appointments_panel_heading_starred {
+    margin-bottom: 25px;
+  }
+  .appointments_panel_heading {
+    font-size: 16px;
+  }
+  .appointments_container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+}
