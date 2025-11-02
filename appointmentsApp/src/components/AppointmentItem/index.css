@@ -34,18 +34,19 @@
 /* -------------------------Mobile------------------------------ */
 
 @media (max-width: 426px) {
-  body{
-    min-height: 100vh;
-  }
   #root {
+    /* dont give height manually */
+    background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
     display: block;
-    height: auto;
     width: 100%;
     padding: 50px 30px;
+    margin-top: 0;
+
   }
   .main_container {
     width: 100%;
     padding: 20px 20px;
+    margin: auto;
   }
   .inputs_image_container {
     flex-direction: column;

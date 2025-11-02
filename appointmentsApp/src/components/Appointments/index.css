@@ -9,16 +9,14 @@ body {
 }
 #root {
   width: 100vw;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 120px 0 0;
 }
 .main_container {
   background-color: #ffffff;
   padding: 40px 40px 25px;
   width: 55%;
   border-radius: 6px;
+  margin: auto;
 }
 .inputs_image_container {
   display: flex;
@@ -65,7 +63,7 @@ label {
   cursor: pointer;
   border: none;
   border-radius: 8px;
-  padding: 8px 12px;
+  padding: 8px 16px;
   color: #ffffff;
   background-color: #8b5cf6;
   margin-top: 10px;
