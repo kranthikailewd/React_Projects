@@ -33,6 +33,8 @@ Click below to open any project live 🔗👇
 | 19 | **Coin Toss Game** | [View Project](https://wwtzv4.csb.app/) |
 | 20 | **Reviews App** | [View Project](https://ys4jg7.csb.app/) |
 | 21 | **Comments App** | [View Project](https://rk3pjh.csb.app/) |
+| 22 | **Appointments App** | [View Project](https://fqhv8p.csb.app/) |
+
 
 
 
