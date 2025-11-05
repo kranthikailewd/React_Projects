@@ -1,0 +1,41 @@
+.money_details_container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 35px;
+  gap: 28px;
+}
+.money_details_card {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+.yellow {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.skyblue {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.violet {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
+.money_details_card_image {
+  width: 50px;
+}
+.money_card_heading {
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 8px;
+}
+.totalBalance,
+.totalIncome,
+.totalExpenses {
+  font-size: 16px;
+  font-weight: 600;
+}

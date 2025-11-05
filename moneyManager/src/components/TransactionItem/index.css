@@ -1,0 +1,15 @@
+.delete_button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.delete_image {
+  width: 16px;
+}
+.transaction_item p:nth-child(-n + 3) {
+  width: 30%;
+  color: rgb(56, 56, 56);
+  font-size: 14px;
+  font-weight: 600;
+}
