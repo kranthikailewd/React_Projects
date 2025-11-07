@@ -13,3 +13,39 @@
   font-size: 14px;
   font-weight: 600;
 }
+
+/* ------------------------------------Mobile------------------------------------ */
+@media (max-width: 426px) {
+  body {
+    display: block;
+  }
+  #root {
+    width: 100% !important;
+    padding: 20px;
+    height: fit-content !important;
+  }
+  .main_container {
+    width: 100% !important;
+    margin-top: 30px !important;
+  }
+  .money_details_container {
+    gap: 12px !important;
+  }
+  .money_details_card {
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 0;
+    width: 33.3%;
+    padding: 14px 0;
+  }
+  .add_transaction_and_history {
+    flex-direction: column;
+  }
+  .add_transaction {
+    width: 80% !important;
+    margin: auto;
+  }
+  .history {
+    margin-bottom: 30px;
+  }
+}

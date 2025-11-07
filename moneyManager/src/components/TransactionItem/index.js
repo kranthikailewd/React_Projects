@@ -4,9 +4,6 @@ const TransactionItem = props => {
   const {transactionDetails, onDeletingListItem} = props
   const {id, titleInput, amountInput, optionId} = transactionDetails
 
-  const capitalize = () =>
-    optionId.charAt(0).toUpperCase() + optionId.slice(1).toLowerCase()
-
   const onClickingDelete = () => {
     onDeletingListItem(id)
   }
@@ -14,7 +11,7 @@ const TransactionItem = props => {
     <li className="transaction_item top_border_absent">
       <p className="transaction_item_title">{titleInput}</p>
       <p className="transaction_item_amount">{amountInput}</p>
-      <p className="transaction_item_type">{capitalize()}</p>
+      <p className="transaction_item_type">{optionId}</p>
       <button
         type="button"
         className="delete_button"

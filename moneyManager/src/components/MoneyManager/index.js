@@ -33,12 +33,12 @@ class MoneyManager extends Component {
       )
       const income = updatedTransactionsList.reduce(
         (sum, each) =>
-          sum + (each.optionId === 'INCOME' ? Number(each.amountInput) : 0),
+          sum + (each.optionId === 'Income' ? Number(each.amountInput) : 0),
         0,
       )
       const expenses = updatedTransactionsList.reduce(
         (sum, each) =>
-          sum + (each.optionId === 'EXPENSES' ? Number(each.amountInput) : 0),
+          sum + (each.optionId === 'Expenses' ? Number(each.amountInput) : 0),
         0,
       )
       return {
@@ -57,18 +57,19 @@ class MoneyManager extends Component {
       id: uuidv4(),
       titleInput,
       amountInput: Number(amountInput),
-      optionId,
+      optionId: transactionTypeOptions.find(each => each.optionId === optionId)
+        .displayText, // Use displayText directly for consistency,
     }
     this.setState(prev => {
       const updatedTransactionsList = [...prev.transactionsList, newTransaction]
       const income = updatedTransactionsList.reduce(
         (sum, each) =>
-          sum + (each.optionId === 'INCOME' ? Number(each.amountInput) : 0),
+          sum + (each.optionId === 'Income' ? Number(each.amountInput) : 0),
         0,
       )
       const expenses = updatedTransactionsList.reduce(
         (sum, each) =>
-          sum + (each.optionId === 'EXPENSES' ? Number(each.amountInput) : 0),
+          sum + (each.optionId === 'Expenses' ? Number(each.amountInput) : 0),
         0,
       )
       return {
@@ -149,8 +150,8 @@ class MoneyManager extends Component {
                 {transactionTypeOptions.map(each => (
                   <option
                     key={each.optionId}
-                    placeholder={each.displayText}
                     value={each.optionId}
+                    placeholder={each.displayText}
                   >
                     {each.displayText}
                   </option>
