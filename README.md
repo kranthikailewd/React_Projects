@@ -34,6 +34,8 @@ Click below to open any project live 🔗👇
 | 20 | **Reviews App** | [View Project](https://ys4jg7.csb.app/) |
 | 21 | **Comments App** | [View Project](https://rk3pjh.csb.app/) |
 | 22 | **Appointments App** | [View Project](https://fqhv8p.csb.app/) |
+| 23 | **Money Manager** | [View Project](https://cjzyxl.csb.app/) |
+
 
 
 
