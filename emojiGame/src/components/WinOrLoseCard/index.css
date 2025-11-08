@@ -83,21 +83,22 @@
     width: 65px;
   }
   .result_container {
-    gap: 10px;
+    gap: 0;
     width: 85%;
     margin: 80px auto;
+    justify-content: space-between;
   }
-  .win_lose_main_heading{
-    font-size: 30px;
+  .win_lose_main_heading {
+    font-size: 28px;
   }
-  .score_heading{
+  .score_heading {
     font-size: 16px;
   }
-  .play_again_button{
+  .play_again_button {
     font-size: 10px;
     padding: 7px 10px;
   }
-  .win_or_lose_image{
-    width: 170px;
+  .win_or_lose_image {
+    width: 160px;
   }
 }
