@@ -1,0 +1,32 @@
+.nav_bar {
+  width: 100%;
+  height: 60px;
+  padding: 12px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff33;
+}
+.logo_name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.game_logo {
+  width: 50px;
+}
+.main_heading {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.scores_container {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.scores_container p {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+}

@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto';
+}
+#root {
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  height: 100vh;
+}
+.main_container {
+  width: 100%;
+}
+.emojis_container {
+  width: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 150px auto 50px;
+}
