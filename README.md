@@ -36,6 +36,8 @@ Click below to open any project live 🔗👇
 | 22 | **Appointments App** | [View Project](https://fqhv8p.csb.app/) |
 | 23 | **Money Manager** | [View Project](https://cjzyxl.csb.app/) |
 | 24 | **Emoji Game** | [View Project](https://z7n68y.csb.app/) |
+| 25 | **Digital Timer** | [View Project](https://qhfstn.csb.app/) |
+
 
 
 
