@@ -38,6 +38,8 @@ Click below to open any project live 🔗👇
 | 24 | **Emoji Game** | [View Project](https://z7n68y.csb.app/) |
 | 25 | **Digital Timer** | [View Project](https://qhfstn.csb.app/) |
 | 26 | **Stopwatch** | [View Project](https://8rx477.csb.app/) |
+| 26 | **Faqs App** | [View Project](https://dpzcpd.csb.app/) |
+
 
 
 
