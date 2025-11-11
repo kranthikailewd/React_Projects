@@ -145,7 +145,7 @@ body {
   color: #454f84;
   width: 100%;
 }
-#searchInput::placeholder{
+#searchInput::placeholder {
   color: #94a3b8;
 }
 .checkbox_container {

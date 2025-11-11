@@ -92,6 +92,7 @@
   }
   .password_create_panel {
     width: 100% !important;
+    padding: 18px 10px 24px !important;
   }
   .main_heading {
     text-align: center;
@@ -99,6 +100,8 @@
   .add_button {
     width: 100%;
     justify-content: center;
+    align-items: center;
+    height: 30px;
   }
   .main_img_container {
     display: flex;
