@@ -1,0 +1,132 @@
+.password_item {
+  list-style: none;
+  padding: 2px 8px;
+  border-radius: 6px;
+  border: 1px solid #7683cb;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  width: 170px;
+  height: 65px;
+}
+.website_profile {
+  font-size: 18px;
+  color: #f8fafc;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #c518ba;
+  line-height: 0.7;
+}
+.yellow {
+  background-color: #f59e0b;
+}
+.green {
+  background-color: #10b981;
+}
+.orange {
+  background-color: #f97316;
+}
+.mint {
+  background-color: #14b8a6;
+}
+.brown {
+  background-color: #b91c1c;
+}
+.blue {
+  background-color: #0ea5e9;
+}
+.grey {
+  background-color: #64748b;
+}
+.password_details_text {
+  width: 60%;
+  height: 60px;
+}
+.website_name {
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  color: #f8fafc;
+}
+.userName {
+  font-size: 10px;
+  margin-bottom: 1px;
+  color: #f8fafc;
+}
+.password {
+  font-size: 10px;
+  color: #f8fafc;
+  margin-top: 2px;
+}
+.hiding_password_img {
+  height: 10px;
+}
+.delete_button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.delete_img {
+  width: 14px;
+}
+
+/* -------------------------------Mobile--------------------------------- */
+
+@media (max-width: 426px) {
+  body {
+    height: fit-content !important;
+  }
+  .main_container {
+    width: 360px !important;
+    padding: 25px 16px !important;
+  }
+  .password_creating_container {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 15px !important;
+  }
+  .password_create_panel {
+    width: 100% !important;
+  }
+  .main_heading {
+    text-align: center;
+  }
+  .add_button {
+    width: 100%;
+    justify-content: center;
+  }
+  .main_img_container {
+    display: flex;
+    justify-content: center;
+  }
+  .main_img {
+    width: 180px;
+    height: 180px !important;
+  }
+  .password_count_and_search {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .search_container {
+    height: 26px !important;
+  }
+  #searchInput {
+    font-size: 13px !important;
+  }
+  .passwords_container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .password_item {
+    width: 70%;
+    justify-content: space-between;
+    padding: 2px 14px;
+  }
+}
