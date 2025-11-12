@@ -40,6 +40,8 @@ Click below to open any project live 🔗👇
 | 26 | **Stopwatch** | [View Project](https://8rx477.csb.app/) |
 | 27 | **Faqs App** | [View Project](https://dpzcpd.csb.app/) |
 | 28 | **Password Manager** | [View Project](https://2kxyf8.csb.app/) |
+| 29 | **Match Game** | [View Project](https://569d98.csb.app/) |
+
 
 
 
