@@ -1,0 +1,44 @@
+.thumbnail_container {
+  list-style: none;
+  width: 82px;
+  height: 82px;
+  margin-bottom: 5px;
+}
+.thumbnail_button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+.thumbnail_img {
+  width: 100%;
+  height: 100%;
+}
+
+/* -----------------------------------Mobile------------------------------------ */
+
+@media (max-width: 426px) {
+  .nav_bar {
+    padding: 0 20px !important;
+  }
+  .game_logo {
+    height: 25px !important;
+  }
+  .game_container,
+  .result_container {
+    width: 85% !important;
+    margin: 50px auto;
+  }
+  .display_image {
+    border-radius: 6px;
+  }
+  .thumbnail_list{
+    justify-content: center !important;
+  }
+  .thumbnail_container{
+    border-radius: 5px !important;
+    overflow: hidden;
+  }
+}
