@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo_container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.logo {
+  width: 20px;
+}
+.logo_name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #12022f;
+}
+.nav_menu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.nav_link {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #12022f;
+}
+a {
+  text-decoration: none;
+}
