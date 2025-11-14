@@ -42,6 +42,8 @@ Click below to open any project live 🔗👇
 | 28 | **Password Manager** | [View Project](https://2kxyf8.csb.app/) |
 | 29 | **Match Game** | [View Project](https://569d98.csb.app/) |
 | 30 | **Routing Practice** | [View Project](https://wgrnrw.csb.app/) |
+| 31 | **Blog List** | [View Project](https://dydfhz.csb.app/) |
+
 
 
 
