@@ -1,0 +1,19 @@
+.user_info_container {
+  width: 100%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.user_img {
+  width: 100px;
+}
+.user_name {
+  font-size: 16px;
+  font-weight: 700;
+}
+.user_role {
+  font-size: 14px;
+  margin-top: 0;
+}

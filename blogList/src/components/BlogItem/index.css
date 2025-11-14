@@ -1,0 +1,22 @@
+.blog_item {
+  list-style: none;
+  width: 100%;
+  border-bottom: 1px solid #616e7c;
+}
+.blog_item:nth-child(5) {
+  border: none;
+}
+.blog_name_time {
+  display: flex;
+  justify-content: space-between;
+}
+.blog_name {
+  font-size: 18px;
+}
+.blog_time {
+  color: #9aa5b1;
+}
+.blog_info {
+  color: #9aa5b1;
+  margin-top: 0;
+}
