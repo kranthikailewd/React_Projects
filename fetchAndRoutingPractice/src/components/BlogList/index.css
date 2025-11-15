@@ -1,0 +1,9 @@
+.blogs_container {
+  width: 100%;
+  padding: 40px;
+}
+@media (max-width: 426px) {
+  .blogs_container {
+    padding: 16px;
+  }
+}
