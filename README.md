@@ -44,6 +44,7 @@ Click below to open any project live 🔗👇
 | 30 | **Routing Practice** | [View Project](https://wgrnrw.csb.app/) |
 | 31 | **Blog List** | [View Project](https://dydfhz.csb.app/) |
 | 32 | **Blog - Fetching/Routing** | [View Project](https://gjqqhh.csb.app/) |
+| 33 | **Crypto Currency Tracker** | [View Project](https://ps7ypl.csb.app/) |
 
 
 
