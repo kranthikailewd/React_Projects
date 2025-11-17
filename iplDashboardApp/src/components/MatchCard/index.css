@@ -1,0 +1,40 @@
+.match_card_info {
+  list-style: none;
+  width: 130px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 10px 14px 15px;
+  text-align: center;
+}
+.match_card_img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.match_card_heading {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffffff;
+  height: 30px;
+}
+.match_card_result {
+  font-size: 8px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffffff;
+  flex-grow: 1;
+}
+.match_card_matchStatus {
+  font-size: 12px;
+  font-weight: 700;
+}
+.lost {
+  color: #e31a1a;
+}
+.win {
+  color: #18ed66;
+}

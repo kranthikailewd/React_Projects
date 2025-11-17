@@ -1,0 +1,62 @@
+.not_found_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.not_found_text {
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* --------------------------Mobile------------------------- */
+
+@media (max-width: 426px) {
+  .main_container {
+    padding: 40px 20px 50px;
+    min-height: fit-content;
+  }
+  .ipl_logo {
+    height: 60px;
+  }
+  .main_heading {
+    font-size: 28px;
+  }
+
+  .team_card_list {
+    width: 85%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .team_card {
+    width: 100%;
+  }
+  .team_card_iamge {
+    width: 60px;
+    height: 60px;
+  }
+  .team_card_name {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+  }
+  .team_container {
+    padding: 40px 20px;
+  }
+  .team_banner,
+  .latest_heading,
+  .match_cards_container,
+  .latest_match_container {
+    width: 100%;
+  }
+  .latest_match_container {
+    gap: 20px;
+  }
+  .match_cards_container {
+    justify-content: space-evenly;
+  }
+
+}

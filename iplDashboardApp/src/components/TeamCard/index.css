@@ -1,0 +1,24 @@
+.team_card_link {
+  text-decoration: none;
+  color: #e8e8e8;
+}
+.team_card {
+  list-style: none;
+  width: 292px;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid #ffffffb4;
+  border-radius: 8px;
+  gap: 10px;
+  background-color: #ffffff33;
+}
+.team_card_iamge {
+  width: 80px;
+  height: 80px;
+}
+.team_card_name {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}

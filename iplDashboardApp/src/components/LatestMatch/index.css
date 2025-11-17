@@ -1,0 +1,59 @@
+.latest_match_container {
+  width: 420px;
+  min-height: 168px;
+  display: flex;
+  padding: 20px 15px 15px;
+  background-color: #1e293b;
+  color: #d9d9d9;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  gap: 30px;
+}
+.main_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+.latest_match_heading {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.latest_match_date {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.latest_match_venue {
+  font-size: 8px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.latest_match_result {
+  font-size: 8px;
+  font-weight: 600;
+}
+.latest_match_img {
+  width: 30%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.in_match_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: end;
+  width: 40%;
+}
+.in_match_info_headings {
+  font-size: 10px;
+  font-weight: 600;
+}
+.in_match_info_data {
+  font-size: 8px;
+  font-weight: 600;
+}
