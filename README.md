@@ -45,6 +45,8 @@ Click below to open any project live 🔗👇
 | 31 | **Blog List** | [View Project](https://dydfhz.csb.app/) |
 | 32 | **Blog - Fetching/Routing** | [View Project](https://gjqqhh.csb.app/) |
 | 33 | **Crypto Currency Tracker** | [View Project](https://ps7ypl.csb.app/) |
+| 34 | **IPL Dashboard** | [View Project](https://9mhncq.csb.app/) |
+
 
 
 
