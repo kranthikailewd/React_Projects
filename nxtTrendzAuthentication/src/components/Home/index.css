@@ -1,0 +1,45 @@
+.home_container {
+  height: 100%;
+}
+.home_content {
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+  gap: 80px;
+  margin-top: 80px;
+}
+.home_text_content {
+  width: 50%;
+}
+.home_heading {
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.home_para {
+  font-size: 15px;
+  font-weight: 500;
+  color: #64748b;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.shop_now_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #0967d2;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 24px;
+  height: 30px;
+  cursor: pointer;
+}
+.home_img_block {
+  width: 50%;
+}
+.home_img {
+  width: 90%;
+}
