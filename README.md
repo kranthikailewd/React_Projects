@@ -1,12 +1,12 @@
 # ⚛️ React Projects Collection
 
 Welcome to my **React Projects Repository!** 🚀  
-This repo contains a collection of **React-based mini projects** built using **functional & class components**, **state management**, and **hooks**.  
+This repo contains a collection of **React-based mini projects** built using **functional & class components**, **state management**, **server calls** and **hooks**.  
 Each project showcases modern React practices through hands-on coding examples 💡
 
 ---
 
-## 🌐 Live Projects (GitHub Pages)
+## 🌐 Live Projects
 
 Click below to open any project live 🔗👇  
 
@@ -85,7 +85,7 @@ Click below to open any project live 🔗👇
 | ⚛️ **React.js (CRA)** | Core framework |
 | 💅 **CSS3 / Flexbox** | Styling & layout |
 | 🧩 **JavaScript (ES6)** | Logic & interactivity |
-| 🌍 **GitHub Pages** | Project hosting |
+| 🌍 **CodeSandbox** | Project hosting |
 
 ---
 
