@@ -46,6 +46,7 @@ Click below to open any project live 🔗👇
 | 32 | **Blog - Fetching/Routing** | [View Project](https://gjqqhh.csb.app/) |
 | 33 | **Crypto Currency Tracker** | [View Project](https://ps7ypl.csb.app/) |
 | 34 | **IPL Dashboard** | [View Project](https://9mhncq.csb.app/) |
+| 35 | **NxtTrendz Authentication** | [View Project](https://2554ft.csb.app/) |
 
 
 
