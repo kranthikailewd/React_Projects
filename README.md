@@ -47,6 +47,8 @@ Click below to open any project live 🔗👇
 | 33 | **Crypto Currency Tracker** | [View Project](https://ps7ypl.csb.app/) |
 | 34 | **IPL Dashboard** | [View Project](https://9mhncq.csb.app/) |
 | 35 | **NxtTrendz Authentication** | [View Project](https://2554ft.csb.app/) |
+| 36 | **Registration Form** | [View Project](https://2mhm8x.csb.app/) |
+
 
 
 
