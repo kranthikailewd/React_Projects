@@ -1,0 +1,15 @@
+.products_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.products_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.products_img {
+  width: 150px;
+  height: 150px;
+}

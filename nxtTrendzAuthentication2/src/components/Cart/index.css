@@ -1,0 +1,15 @@
+.cart_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.cart_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.cart_img {
+  width: 100px;
+  height: 150px;
+}
