@@ -49,6 +49,8 @@ Click below to open any project live 🔗👇
 | 35 | **NxtTrendz Authentication** | [View Project](https://2554ft.csb.app/) |
 | 36 | **Registration Form** | [View Project](https://2mhm8x.csb.app/) |
 | 37 | **NxtTrendz Authentication2** | [View Project](https://srtjt7.csb.app/login) |
+| 38 | **Events** | [View Project](https://njvfzd.csb.app/) |
+
 
 
 
