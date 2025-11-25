@@ -1,0 +1,22 @@
+.tab {
+  list-style: none;
+}
+.tab_button {
+  outline: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+}
+.active {
+  color: #0284c7;
+  border: 2px solid #0284c7;
+}

@@ -1,0 +1,55 @@
+.repo {
+  width: 150px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 10px;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+}
+.repo_img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.repo_heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: #e73959;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.repo_info_container {
+  width: 80%;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.repo_info_img {
+  width: 15px;
+}
+.repo_info_count {
+  font-size: 10px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+/* ------------------------Mobile------------------------ */
+
+@media (max-width: 426px) {
+  .main_container {
+    width: 100% !important;
+    padding: 40px 20px !important;
+  }
+  .repo_category_tabs_list {
+    gap: 10px !important;
+  }
+  .tab_button {
+    font-size: 14px;
+  }
+  .repos_container {
+    justify-content: center;
+  }
+}
