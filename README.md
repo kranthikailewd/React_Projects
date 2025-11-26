@@ -51,6 +51,8 @@ Click below to open any project live 🔗👇
 | 37 | **NxtTrendz Authentication2** | [View Project](https://srtjt7.csb.app/login) |
 | 38 | **Events** | [View Project](https://njvfzd.csb.app/) |
 | 39 | **Github Popular Repos** | [View Project](https://dwdz8t.csb.app/) |
+| 40 | **NxtTrendz Filters** | [View Project](https://hgf7j6.csb.app/login) |
+
 
 
 
