@@ -52,6 +52,8 @@ Click below to open any project live 🔗👇
 | 38 | **Events** | [View Project](https://njvfzd.csb.app/) |
 | 39 | **Github Popular Repos** | [View Project](https://dwdz8t.csb.app/) |
 | 40 | **NxtTrendz Filters** | [View Project](https://hgf7j6.csb.app/login) |
+| 41 | **NxtTrendz Specific Product** | [View Project](https://86s3jf.csb.app/) |
+
 
 
 
