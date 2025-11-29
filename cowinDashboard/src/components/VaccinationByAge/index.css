@@ -1,0 +1,50 @@
+.age_chart_container {
+  background-color: transparent;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.charts_heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #cbd5e1;
+  align-self: flex-start;
+}
+
+/* ---------------------Mobile--------------------- */
+
+@media (max-width: 426px) {
+  #root {
+    width: 100%;
+  }
+  .main_container {
+    width: 100% !important;
+    padding: 40px 20px !important;
+  }
+  .brand {
+    margin-bottom: 20px !important;
+  }
+  .logo {
+    width: 20px !important;
+  }
+  .brand_name {
+    font-size: 16px !important;
+  }
+  .main_heading {
+    font-size: 20px !important;
+  }
+  .week_chart_container {
+    padding: 20px 0;
+    gap: 25px;
+  }
+  .gender_chart_container,
+  .age_chart_container {
+    padding: 20px 0;
+    border-top: 1px solid rgb(92, 92, 92);
+  }
+  .charts_heading {
+    margin-bottom: 0;
+    align-self: center;
+  }
+}

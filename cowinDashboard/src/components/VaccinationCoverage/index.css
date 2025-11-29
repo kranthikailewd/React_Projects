@@ -1,0 +1,15 @@
+.week_chart_container {
+  background-color: transparent;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.charts_heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #cbd5e1;
+  align-self: flex-start;
+}

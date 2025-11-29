@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#root {
+  background-color: #1c1c2b;
+  min-height: 100vh;
+}
+.main_container {
+  background-color: transparent;
+  width: 800px;
+  margin: auto;
+  padding: 40px 0;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.logo {
+  width: 40px;
+}
+.brand_name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2cc6c6;
+}
+.main_heading {
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure {
+  width: fit-content;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.failure_img {
+  width: 400px;
+}
+.failure_heading {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #cbd5e1;
+}
