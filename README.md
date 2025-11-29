@@ -53,6 +53,8 @@ Click below to open any project live 🔗👇
 | 39 | **Github Popular Repos** | [View Project](https://dwdz8t.csb.app/) |
 | 40 | **NxtTrendz Filters** | [View Project](https://hgf7j6.csb.app/login) |
 | 41 | **NxtTrendz Specific Product** | [View Project](https://86s3jf.csb.app/) |
+| 42 | **CoWIN Dashboard** | [View Project](https://qwmjhx.csb.app/) |
+
 
 
 
