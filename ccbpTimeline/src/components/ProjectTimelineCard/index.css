@@ -1,0 +1,85 @@
+.project_img {
+  width: 100%;
+  border-radius: 16px;
+}
+.visit_link {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #0967d2;
+  padding: 4px 0 6px;
+  margin: 0;
+  align-self: flex-start;
+}
+
+/* ------------------------Mobile----------------------- */
+
+@media (max-width: 426px) {
+  .main_container {
+    width: 100% !important;
+    padding: 30px 0 !important;
+  }
+  .my_journey {
+    font-size: 14px !important;
+  }
+  .main_heading {
+    padding: 6px 0 !important;
+  }
+  .css-1iv48dl-TimelineVerticalWrapper {
+    padding: 1rem 4px !important;
+  }
+  .vertical_alternating {
+    padding: 0 !important;
+  }
+  .course_title_duration {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+  }
+  .card_heading {
+    align-self: flex-start;
+    font-size: 18px;
+  }
+  .duration_block {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    align-self: flex-start;
+  }
+  .duration_block {
+    gap: 3px;
+  }
+  .icon {
+    font-size: 12px;
+  }
+  .duration {
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .description {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .topic {
+    font-size: 9px;
+    font-weight: 600;
+    padding: 6px;
+    line-height: 9px;
+  }
+  .visit_link {
+    font-size: 14px;
+  }
+  .e5foh872{
+    width: 14px !important;
+    height: 14px !important;
+  }
+  .e5foh872::after{
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0.04px 0 0 0.04px;
+  }
+  .eecm4uk3{
+    width: 25px !important;
+  }
+}

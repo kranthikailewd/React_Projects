@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto';
+  min-height: 100vh;
+}
+#root {
+  height: 100%;
+}
+.main_container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 30px;
+}
+.my_journey {
+  font-size: 16px;
+  font-weight: 700;
+}
+.main_heading {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 30px 0;
+}
+.e1gmwefz1 {
+  position: fixed;
+  bottom: 10px;
+  align-self: center;
+}
+.timeline-controls {
+  background-color: rgba(201, 218, 228) !important;
+  opacity: 1;
+}

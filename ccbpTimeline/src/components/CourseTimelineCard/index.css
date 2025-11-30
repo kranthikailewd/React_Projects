@@ -1,0 +1,45 @@
+.chrono_card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.course_title_duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_heading {
+  font-size: 22px;
+  font-weight: 700;
+}
+.duration_block {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.icon {
+  font-size: 14px;
+}
+.duration {
+  font-size: 13px;
+  font-weight: 700;
+}
+.description {
+  font-size: 14px;
+  color: #1e293b;
+}
+.topics_covered {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.topic {
+  list-style: none;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px;
+  background-color: rgba(82, 121, 146, 0.178);
+  display: inline;
+  line-height: 10px;
+}
