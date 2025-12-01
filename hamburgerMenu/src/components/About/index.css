@@ -1,0 +1,6 @@
+.about_img_block {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/about-lg-img.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}

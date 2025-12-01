@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  font-family: 'Roboto';
+}
+#root {
+  height: 100%;
+}
+.home_img_block {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-img.png');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}

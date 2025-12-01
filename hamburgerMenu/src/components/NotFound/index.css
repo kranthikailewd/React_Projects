@@ -1,0 +1,48 @@
+.notfound_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.notfound_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  flex-grow: 1;
+  padding: 0 20px;
+}
+.notfound_img {
+  width: 250px;
+}
+.notfound_heading {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+.notfound_para {
+  font-size: 14px;
+  color: #616e7c;
+  text-align: center;
+}
+
+/* ----------------------Mobile---------------------- */
+
+@media (max-width: 426px) {
+  .header_container,
+  .modal_header_container {
+    padding: 0 30px;
+    height: 60px;
+  }
+  .logo {
+    width: 30px;
+  }
+
+  .home_img_block {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-img.png');
+  }
+  .about_img_block {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/about-sm-img.png');
+  }
+}
