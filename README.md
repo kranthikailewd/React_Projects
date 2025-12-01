@@ -12,7 +12,7 @@ Click below to open any project live 🔗👇
 
 | # | ⚛️ Project Name | 🔗 Live Demo |
 |---|-----------------|---------------|
-| 45 | **Prime Video UI** | [View Project](https://2k24yg.csb.app/) |
+| 46 | **Prime Video UI** | [View Project](https://2k24yg.csb.app/) |
 | 45 | **React Popup** | [View Project](https://y3yhc2.csb.app/) |
 | 44 | **React Carousel** | [View Project](https://c76syh.csb.app/) |
 | 43 | **NxtWave Journey** | [View Project](https://f2w49m.csb.app/) |
