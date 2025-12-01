@@ -1,0 +1,26 @@
+.slider_planet {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.planet_img {
+  width: 300px;
+}
+.planet_name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f8fafc;
+  text-align: center;
+}
+.planet_info {
+  font-size: 14px;
+  color: #f1f5f9;
+  width: 90%;
+  text-align: center;
+}
+
+.slick-prev{
+  font-size: 30px;
+}
