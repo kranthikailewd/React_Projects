@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto';
+  height: 100vh;
+}
+#root {
+  height: 100%;
+}
+.main_container {
+  background-color: #000000;
+  height: 100%;
+}
+.prime_img {
+  width: 100%;
+}
+.content_container {
+  padding: 0 60px 30px;
+}
+.main_heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
