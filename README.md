@@ -12,6 +12,7 @@ Click below to open any project live 🔗👇
 
 | # | ⚛️ Project Name | 🔗 Live Demo |
 |---|-----------------|---------------|
+| 45 | **React Popup** | [View Project](https://y3yhc2.csb.app/) |
 | 44 | **React Carousel** | [View Project](https://c76syh.csb.app/) |
 | 43 | **NxtWave Journey** | [View Project](https://f2w49m.csb.app/) |
 | 42 | **CoWIN Dashboard** | [View Project](https://qwmjhx.csb.app/) |
