@@ -12,6 +12,7 @@ Click below to open any project live 🔗👇
 
 | # | ⚛️ Project Name | 🔗 Live Demo |
 |---|-----------------|---------------|
+| 47 | **Jobby App** | [View Project](https://wdcklr.csb.app/login) |
 | 46 | **Prime Video UI** | [View Project](https://2k24yg.csb.app/) |
 | 45 | **React Popup** | [View Project](https://y3yhc2.csb.app/) |
 | 44 | **React Carousel** | [View Project](https://c76syh.csb.app/) |
