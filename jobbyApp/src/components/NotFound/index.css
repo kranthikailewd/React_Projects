@@ -1,0 +1,14 @@
+.not_found_container {
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.not_found_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+}
