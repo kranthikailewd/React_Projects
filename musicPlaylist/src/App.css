@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main_container {
+  height: 100vh;
+}
+.singer_info {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 40%;
+  padding: 30px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.main_heading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.occupation {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.work_block {
+  height: 60%;
+  padding: 0 20px 20px;
+  width: 100%;
+  background-color: #152850;
+  display: flex;
+  flex-direction: column;
+}
+.playlist_search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 30px;
+  background-color: transparent;
+  width: 700px;
+  margin: auto;
+}
+.playlist_heading {
+  color: #ffffff;
+}
+.search_input {
+  outline: none;
+  border: 1px solid #cbd5e1;
+  height: 30px;
+  padding: 0 0 0 6px;
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 6px;
+  color: #ffffff;
+}
+.songs_list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 0;
+  overflow-y: scroll;
+  width: 700px;
+  margin: auto;
+  flex-grow: 1;
+}
+.song_item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.song_left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+}
+.song_img {
+  width: 120px;
+  border-radius: 6px;
+}
+.song_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+.song_title,
+.song_duration {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.song_genre {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3b82f6;
+}
+.song_right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: fit-content;
+}
+.delete-button {
+  font-size: 14px;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding-right: 30px;
+}
+.no_songs_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.no_songs_heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+}
+
+
+@media (max-width: 426px){
+  .singer_info{
+    height: 25%;
+    padding: 20px 30px;
+  }
+  .work_block{
+    height: 75%;
+  }
+  .songs_list{
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .playlist_search{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .playlist_heading{
+    font-size: 16px;
+  }
+  .search_input{
+    height: 26px;
+  }
+  .delete-button{
+    padding-right: 20px;
+    font-size: 18px;
+    padding-bottom: 0;
+  }
+  .song_title,
+  .song_duration{
+    font-size: 14px;
+  }
+  .song_genre{
+    font-size: 14px;
+  }
+  .song_info{
+    gap: 8px;
+  }
+  .song_right{
+    gap: 20px;
+  }
+  
+}
