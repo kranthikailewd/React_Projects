@@ -12,6 +12,7 @@ Click below to open any project live 🔗👇
 
 | # | ⚛️ Project Name | 🔗 Live Demo |
 |---|-----------------|---------------|
+| 49 | **Playlist - Practice** | [View Project](https://fpkpvd.csb.app/) |
 | 48 | **Meme Editor** | [View Project](https://8f9rjc.csb.app/) |
 | 47 | **Jobby App** | [View Project](https://wdcklr.csb.app/login) |
 | 46 | **Prime Video UI** | [View Project](https://2k24yg.csb.app/) |
