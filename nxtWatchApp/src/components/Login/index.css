@@ -67,8 +67,24 @@
   margin-top: 20px;
   cursor: pointer;
 }
-.error_msg{
+.error_msg {
   font-size: 10px;
   color: #ff0b37;
   margin-top: 4px;
+}
+
+/* ---------------------Details------------------------ */
+
+.login_details_container {
+  position: fixed;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+.login_details{
+  font-size: 14px;
+  font-weight: 600;
+  color: #4f46e5;
 }
