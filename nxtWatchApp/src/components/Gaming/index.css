@@ -1,0 +1,22 @@
+.gaming_videos_list {
+  padding: 20px 35px 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* -----------------------------Tablet----------------------------- */
+
+@media (max-width: 769px) {
+  .gaming_videos_list {
+    padding: 10px 20px 30px;
+  }
+}
+
+/* -----------------------------Mobile----------------------------- */
+
+@media (max-width: 426px) {
+  .gaming_videos_list {
+    padding: 10px 20px 30px;
+  }
+}

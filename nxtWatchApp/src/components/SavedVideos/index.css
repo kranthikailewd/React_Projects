@@ -1,0 +1,50 @@
+.saved_videos_list {
+  flex-grow: 1;
+  overflow: hidden;
+}
+.no_saved_container,
+.not_found_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  flex-grow: 1;
+  overflow: hidden;
+}
+.no_saved_img,
+.not_found_img {
+  width: 300px;
+}
+.no_saved_heading,
+.not_found_heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+  text-align: center;
+  margin: 30px 0 15px;
+}
+.no_saved_para,
+.not_found_para {
+  font-size: 14px;
+  color: #475569;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.no_saved_heading.in_dark_theme,
+.not_found_heading.in_dark_theme {
+  color: #f9f9f9;
+}
+.no_saved_para.in_dark_theme,
+.not_found_para.in_dark_theme {
+  color: #94a3b8;
+}
+
+/* -----------------------------Mobile----------------------------- */
+
+@media (max-width: 426px) {
+  .saved_videos_list {
+    margin-bottom: 90px;
+  }
+}

@@ -1,0 +1,73 @@
+.gaming_video_item {
+  list-style: none;
+  width: 20%;
+  padding: 0 16px;
+  margin-bottom: 50px;
+}
+.gaming_video_link {
+  text-decoration: none;
+  list-style: none;
+  margin: auto;
+}
+.gaming_video_thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+.channel_info {
+  padding-left: 5px;
+}
+.gaming_video_title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #181818;
+  margin: 10px 0 5px;
+}
+.gaming_video_views {
+  font-size: 12px;
+  color: #434c55;
+  display: flex;
+  align-items: center;
+}
+.gaming_video_title.in_dark_theme {
+  color: #cbd5e1;
+}
+.gaming_video_views.in_dark_theme {
+  color: #94a3b8;
+}
+
+/* -----------------------------Tablet----------------------------- */
+
+@media (max-width: 769px) {
+  .gaming_video_item {
+    width: 33.33%;
+    padding: 0 6px;
+    margin-bottom: 25px;
+  }
+  .gaming_video_title {
+    font-size: 13px;
+    margin: 5px 0 4px;
+  }
+  .gaming_video_views {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+}
+/* -----------------------------Mobile----------------------------- */
+
+@media (max-width: 426px) {
+  .gaming_video_item {
+    width: 50%;
+    padding: 0 6px;
+    margin-bottom: 25px;
+  }
+  .gaming_video_title {
+    font-size: 13px;
+    margin: 5px 0 4px;
+  }
+  .gaming_video_views {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+}

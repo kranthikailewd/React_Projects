@@ -1,0 +1,110 @@
+.home_video_item {
+  width: 25%;
+  list-style: none;
+  padding: 0 8px 16px;
+  height: 300px;
+}
+.home_video_link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 0 0 6px 6px;
+}
+.home_video_link.in_dark_theme {
+  background-color: #111111;
+}
+.home_video_thumbnail {
+  width: 100%;
+  border-radius: 6px;
+}
+.channel_home_video_info {
+  display: flex;
+  margin-top: 6px;
+  gap: 8px;
+  flex-grow: 1;
+}
+.channel_profile {
+  width: 30px;
+  height: 30px;
+}
+.home_video_title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #475569;
+  line-height: 18px;
+}
+.home_video_title.in_dark_theme {
+  color: #cbd5e1;
+}
+.channel_name,
+.home_video_views_date {
+  font-size: 12px;
+  color: #475569;
+  line-height: 18px;
+}
+.channel_name.in_dark_theme,
+.home_video_views_date.in_dark_theme {
+  color: #94a3b8;
+}
+.home_video_views_date {
+  display: flex;
+  align-items: center;
+}
+.dot {
+  font-size: 20px;
+  color: #687486;
+}
+
+/* -----------------------------Tablet----------------------------- */
+
+@media (max-width: 769px) {
+  .home_video_item {
+    width: 50%;
+    padding: 0 10px 16px;
+    height: 280px;
+  }
+  .channel_home_video_info {
+    margin-top: 0;
+    padding: 10px 10px 10px 6px;
+    gap: 8px;
+    flex-grow: 1;
+  }
+  .home_video_title {
+    line-height: 14px;
+    margin-bottom: 4px;
+  }
+
+  .home_video_link.in_dark_theme {
+    background-color: transparent;
+  }
+  .home_video_thumbnail {
+    border-radius: 0;
+  }
+}
+/* -----------------------------Mobile----------------------------- */
+
+@media (max-width: 426px) {
+  .home_video_item {
+    width: 100%;
+    padding: 0 0 16px;
+    height: 330px;
+  }
+  .channel_home_video_info {
+    margin-top: 0;
+    padding: 10px 10px 10px 6px;
+    gap: 8px;
+    flex-grow: 1;
+  }
+  .home_video_title {
+    line-height: 14px;
+    margin-bottom: 4px;
+  }
+
+  .home_video_link.in_dark_theme {
+    background-color: transparent;
+  }
+  .home_video_thumbnail {
+    border-radius: 0;
+  }
+}

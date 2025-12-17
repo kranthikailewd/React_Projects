@@ -1,0 +1,63 @@
+.route_heading_block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 35px 35px 40px;
+}
+.route_heading_icon {
+  font-size: 24px;
+  color: #e60c34;
+}
+.route_heading {
+  font-size: 24px;
+  color: #1e293b;
+}
+.route_heading.in_dark_theme {
+  color: #f9f9f9;
+}
+.trending_videos_list {
+  padding: 20px 35px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  min-height: fit-content;
+}
+
+/* -----------------------------Tablet----------------------------- */
+
+@media (max-width: 769px) {
+  .route_heading_block {
+    gap: 10px;
+    padding: 25px 20px 30px;
+  }
+  .route_heading_icon {
+    font-size: 20px;
+    color: #e60c34;
+  }
+  .route_heading {
+    font-size: 20px;
+  }
+  .trending_videos_list {
+    padding: 10px 20px 30px;
+    gap: 25px;
+  }
+}
+/* -----------------------------Mobile----------------------------- */
+
+@media (max-width: 426px) {
+  .route_heading_block {
+    gap: 10px;
+    padding: 25px 20px 30px;
+  }
+  .route_heading_icon {
+    font-size: 20px;
+    color: #e60c34;
+  }
+  .route_heading {
+    font-size: 20px;
+  }
+  .trending_videos_list {
+    padding: 10px 20px 30px;
+    gap: 25px;
+  }
+}

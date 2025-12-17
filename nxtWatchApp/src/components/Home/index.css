@@ -1,0 +1,225 @@
+.home_container,
+.video_details_container,
+.trending_container,
+.saved_videos_container,
+.gaming_container,
+.not_found_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.home_tabs_content,
+.video_tabs_content,
+.trending_tabs_content,
+.saved_videos_tabs_content,
+.gaming_tabs_content,
+.not_found_tabs_content {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+}
+.tabs_container {
+  width: 15%;
+}
+.home_content,
+.trending_content,
+.gaming_content,
+.video_content,
+.saved_videos_content,
+.not_found_content {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: #f1f1f19e;
+}
+.home_content.in_dark_theme,
+.video_content.in_dark_theme,
+.saved_videos_content.in_dark_theme,
+.gaming_content.in_dark_theme,
+.trending_content.in_dark_theme,
+.not_found_content.in_dark_theme {
+  background-color: #000000;
+}
+.search_container {
+  width: 350px;
+  background-color: white;
+  height: 25px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: 1.5px solid #b9bbbef9;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.search_input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  flex-grow: 1;
+  padding: 0 10px;
+  color: #0f0f0f;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.search_button {
+  outline: none;
+  border: none;
+  background-color: #e6e6e6a7;
+  width: 50px;
+  cursor: pointer;
+  height: 100%;
+  border-left: 1.5px solid #b7b8b8f9;
+}
+.search-icon {
+  font-size: 14px;
+  color: #7e858e;
+  padding-top: 2px;
+}
+.search_container.in_dark_theme {
+  background-color: transparent;
+  border: 1.5px solid #475569;
+}
+.search_input.in_dark_theme {
+  background-color: transparent;
+  color: #f9f9f9;
+}
+.search_input.in_dark_theme::placeholder {
+  color: #94a3b8;
+}
+.search_button.in_dark_theme {
+  background-color: #424242;
+  border-left: 1.5px solid #475569;
+}
+.search-icon.in_dark_theme {
+  color: #94a3b8;
+}
+.search_and_video_list {
+  padding: 20px;
+}
+.videos_list {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.loader_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.failure_container,
+.no_videos_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+.failure_img,
+.no_videos_img {
+  width: 300px;
+}
+.failed_heading,
+.no_videos_heading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+  text-align: center;
+  margin: 30px 0 15px;
+}
+.failed_heading.in_dark_theme,
+.no_videos_heading.in_dark_theme {
+  color: #f9f9f9;
+}
+.failed_para,
+.no_videos_para {
+  font-size: 14px;
+  color: #475569;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.failed_para.in_dark_theme,
+.no_videos_para.in_dark_theme {
+  color: #94a3b8;
+}
+.retry_button {
+  outline: none;
+  border: none;
+  background-color: #4f46e5;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* -----------------------------Tablet----------------------------- */
+
+@media (max-width: 769px) {
+  .home_content,
+  .trending_content,
+  .gaming_content,
+  .video_content,
+  .saved_videos_content,
+  .not_found_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    padding: 0 10px 60px;
+  }
+  .tabs_container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .search_container {
+    height: 30px;
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+  .search_and_video_list {
+    padding: 20px 0;
+  }
+}
+/* -----------------------------Mobile----------------------------- */
+
+@media (max-width: 426px) {
+  .home_content,
+  .trending_content,
+  .gaming_content,
+  .video_content,
+  .saved_videos_content,
+  .not_found_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    padding: 0;
+  }
+  .tabs_container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .search_container {
+    height: 30px;
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+  .search_and_video_list {
+    padding: 20px 0;
+  }
+}
