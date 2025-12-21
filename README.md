@@ -21,7 +21,7 @@ Click below to open any project live 🔗👇
 | 46 | **Prime Video UI** | [View Project](https://2k24yg.csb.app/) |
 | 45 | **React Popup** | [View Project](https://y3yhc2.csb.app/) |
 | 44 | **React Carousel** | [View Project](https://c76syh.csb.app/) |
-| 43 | **NxtWave Journey** | [View Project](https://f2w49m.csb.app/) |
+| 43 | **NxtWave Journey** | [View Project](https://kranthitimeline.ccbp.tech/) |
 | 42 | **CoWIN Dashboard** | [View Project](https://qwmjhx.csb.app/) |
 | 41 | **NxtTrendz Specific Product** | [View Project](https://86s3jf.csb.app/) |
 | 40 | **NxtTrendz Filters** | [View Project](https://hgf7j6.csb.app/login) |
