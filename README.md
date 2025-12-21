@@ -17,7 +17,7 @@ Click below to open any project live 🔗👇
 | 50 | **Country Visit List** | [View Project](https://h5nl2p.csb.app/) |
 | 49 | **Playlist - Practice** | [View Project](https://fpkpvd.csb.app/) |
 | 48 | **Meme Editor** | [View Project](https://8f9rjc.csb.app/) |
-| 47 | **Jobby App** | [View Project](https://wdcklr.csb.app/login) |
+| 47 | **Jobby App** | [View Project](https://kranthijobbyapp.ccbp.tech/login) |
 | 46 | **Prime Video UI** | [View Project](https://2k24yg.csb.app/) |
 | 45 | **React Popup** | [View Project](https://y3yhc2.csb.app/) |
 | 44 | **React Carousel** | [View Project](https://c76syh.csb.app/) |
