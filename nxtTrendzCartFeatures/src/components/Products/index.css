@@ -1,0 +1,17 @@
+.products_container {
+  width: 100%;
+  padding-top: 80px;
+}
+.product-sections {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media (max-width: 426px) {
+  .products_container {
+    padding: 60px 20px;
+  }
+}

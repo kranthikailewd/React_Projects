@@ -1,0 +1,127 @@
+.product_item_container {
+  padding: 80px 20px 20px;
+}
+.product_details_block {
+  font-family: 'Roboto';
+  display: flex;
+  gap: 50px;
+  width: 70%;
+  margin: auto;
+  padding: 30px 0 0;
+}
+.product_details_img_container,
+.product_details_text_container {
+  width: 50%;
+}
+.product_details_img {
+  width: 100%;
+  border-radius: 10px;
+}
+.main_heading {
+  margin: 0 0 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.cost {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.rating-container {
+  width: fit-content;
+  align-items: center;
+}
+.star {
+  margin-bottom: 1px;
+}
+.rating_reviews_block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.reviews_text {
+  margin: 0;
+}
+.description {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.availability_block,
+.brand_block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.info_headings {
+  font-size: 14px;
+  margin: 0;
+}
+.availability,
+.brand {
+  font-size: 14px;
+  margin: 0;
+}
+.set_item_count {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0 15px;
+}
+.set_item_count_button {
+  outline: none;
+  border: 1px solid rgb(48, 48, 48);
+  cursor: pointer;
+  background-color: #78c2ff1d;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+.icons {
+  margin-bottom: none;
+  font-size: 14px;
+}
+.add_to_cart_button {
+  outline: none;
+  border: none;
+  background-color: #3b82f6;
+  padding: 8px 12px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.similar_product_details_block {
+  width: 70%;
+  margin: auto;
+  padding: 30px 0 0;
+}
+.similar_product_details {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.similar_products_list {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  padding: 0 0 40px;
+}
+
+@media (max-width: 426px) {
+  .icons {
+    font-size: 14px;
+  }
+  .product_item_container{
+    padding: 60px 20px 20px;
+  }
+  .product_details_block {
+    font-family: 'Roboto';
+    gap: 30px;
+    padding: 30px 0 0;
+  }
+}
