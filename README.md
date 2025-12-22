@@ -12,7 +12,8 @@ Click below to open any project live 🔗👇
 
 | # | ⚛️ Project Name | 🔗 Live Demo |
 |---|-----------------|---------------|
-| 52 | **NxtWatch Videos App** | [View Project](https://kranthinxtwatch.ccbp.tech/login) |
+| 53 | **NxtWatch Videos App** | [View Project](https://kranthinxtwatch.ccbp.tech/login) |
+| 52 | **NxtTrendz E-commerce App** | [View Project](https://kranthitrendz.ccbp.tech/login) |
 | 51 | **Rock Paper Scissors** | [View Project](https://yh4ymt.csb.app/) |
 | 50 | **Country Visit List** | [View Project](https://h5nl2p.csb.app/) |
 | 49 | **Playlist - Practice** | [View Project](https://fpkpvd.csb.app/) |
