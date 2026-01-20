@@ -1,0 +1,478 @@
+.restaurant_page_container {
+  width: 100%;
+  font-family: 'DM Sans';
+}
+.banner_container {
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/pavankalyanbandaru/image/upload/v1651083504/tasty-kitchens/restaurant-banner-background.png');
+  color: #ffffff;
+  height: 344px;
+  display: flex;
+  align-items: center;
+}
+.banner {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.banner_image_container {
+  width: 445px;
+  height: 280px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.restaurant_image {
+  width: 100%;
+}
+.banner_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner_heading {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+}
+.banner_cuisine {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  margin: 12px 0 8px;
+}
+.banner_location {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+.banner_ratings_cost_block {
+  display: flex;
+  margin-top: 16px;
+}
+.banner_ratings_box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-right: 32px;
+  border-right: 1px solid #e2e8f0;
+}
+.banner_rating {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.gjTTQy {
+  padding-top: 2px;
+}
+.banner_reviews {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #e2e8f0;
+}
+.banner_cost_box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 32px;
+}
+.banner_cost {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+.cost_for_two {
+  font-family: DM Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  vertical-align: middle;
+  color: #e2e8f0;
+}
+.restaurant_items_list_container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 64px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+/* Landscape Tablet styles */
+@media (min-width: 769px) and (max-width: 1150px) {
+  .banner_container {
+    height: 270px;
+  }
+  .banner {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    justify-content: center;
+  }
+  .banner_image_container {
+    width: 330px;
+    height: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: static;
+    top: -54px;
+    left: -68px;
+  }
+  .restaurant_image {
+    height: 100%;
+    width: 100%;
+  }
+  .banner_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0;
+    width: 50%;
+    margin-left: 0;
+  }
+  .banner_heading {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .banner_cuisine {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    margin: 8px 0;
+  }
+  .banner_location {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0px;
+  }
+  .banner_ratings_cost_block {
+    margin-top: 12px;
+  }
+
+  .banner_ratings_box {
+    padding-right: 16px;
+  }
+  .banner_rating {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .gjTTQy {
+    padding-top: 2px;
+  }
+  .banner_cost_box {
+    padding-left: 16px;
+  }
+  .banner_cost {
+    font-size: 13px;
+  }
+  .restaurant_items_list_container {
+    margin: 0;
+    padding: 48px 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px 0;
+    flex-wrap: wrap;
+  }
+}
+/* Tablet styles */
+@media (min-width: 641px) and (max-width: 768px) {
+  .banner_container {
+    height: 200px;
+  }
+  .banner {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  .banner_image_container {
+    width: 221px;
+    height: 221px;
+    border-radius: 221px;
+    overflow: hidden;
+    position: absolute;
+    top: -54px;
+    left: -68px;
+  }
+  .restaurant_image {
+    height: 100%;
+  }
+  .banner_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 16px;
+    width: 50%;
+    margin-left: auto;
+  }
+  .banner_heading {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .banner_cuisine {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    margin: 8px 0;
+  }
+  .banner_location {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+  }
+  .banner_ratings_cost_block {
+    margin-top: 12px;
+  }
+
+  .banner_ratings_box {
+    padding-right: 16px;
+  }
+  .banner_rating {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .gjTTQy {
+    padding-top: 2px;
+  }
+  .banner_cost_box {
+    padding-left: 16px;
+  }
+  .banner_cost {
+    font-size: 12px;
+  }
+  .restaurant_items_list_container {
+    margin: 0;
+    padding: 48px 10px 48px 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px 0;
+    flex-wrap: wrap;
+  }
+}
+/* Landscape Mobile styles */
+@media (min-width: 426px) and (max-width: 640px) {
+  .banner_container {
+    height: 188px;
+  }
+  .banner {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  .banner_image_container {
+    width: 221px;
+    height: 221px;
+    border-radius: 221px;
+    overflow: hidden;
+    position: absolute;
+    top: -54px;
+    left: -68px;
+  }
+  .restaurant_image {
+    height: 100%;
+  }
+  .banner_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 16px;
+    width: 50%;
+    margin-left: auto;
+  }
+  .banner_heading {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .banner_cuisine {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    margin: 8px 0;
+  }
+  .banner_location {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+  }
+  .banner_ratings_cost_block {
+    margin-top: 12px;
+  }
+
+  .banner_ratings_box {
+    padding-right: 16px;
+  }
+  .banner_rating {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .gjTTQy {
+    padding-top: 2px;
+  }
+  .banner_cost_box {
+    padding-left: 16px;
+  }
+  .banner_cost {
+    font-size: 12px;
+  }
+  .restaurant_items_list_container {
+    margin: 0;
+    padding: 32px 10px 48px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    flex-wrap: no-wrap;
+  }
+}
+/* Mobile styles */
+@media (max-width: 425px) {
+  .banner_container {
+    height: 188px;
+  }
+  .banner {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  .banner_image_container {
+    width: 221px;
+    height: 221px;
+    border-radius: 221px;
+    overflow: hidden;
+    position: absolute;
+    top: -54px;
+    left: -68px;
+  }
+  .restaurant_image {
+    height: 100%;
+  }
+  .banner_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 16px;
+    width: 50%;
+    margin-left: auto;
+  }
+  .banner_heading {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+  }
+  .banner_cuisine {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    margin: 8px 0;
+  }
+  .banner_location {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+  }
+  .banner_ratings_cost_block {
+    margin-top: 12px;
+  }
+
+  .banner_ratings_box {
+    padding-right: 16px;
+  }
+  .banner_rating {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .gjTTQy {
+    padding-top: 2px;
+  }
+  .banner_cost_box {
+    padding-left: 16px;
+  }
+  .banner_cost {
+    font-size: 12px;
+  }
+  .restaurant_items_list_container {
+    margin: 0;
+    padding: 32px 10px 48px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    flex-wrap: no-wrap;
+  }
+}

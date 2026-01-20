@@ -1,0 +1,224 @@
+.login_container {
+  height: 100vh;
+  display: flex;
+  font-family: 'DM Sans';
+  overflow: hidden;
+}
+.login_block {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_page_img_block {
+  width: 50%;
+}
+.login_form {
+  width: 456px;
+  border-radius: 8px;
+  background: #fefeff;
+  box-shadow: 0px 8px 40px 0px #07070714;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.website_name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  font-style: italic;
+  color: #f7931e;
+  margin: 0;
+  text-align: center;
+}
+.login_heading {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 32px 0 64px;
+  color: #0f172a;
+}
+.labels_block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.login_label {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #475569;
+}
+.login_input {
+  width: 360px;
+  height: 40px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #e2e8f0;
+  padding: 8px 0 8px 16px;
+}
+.error_msg {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ef4444;
+  align-self: flex-start;
+  margin: 12px 0 8px;
+}
+.login_page_image {
+  width: 50%;
+  /* background-image: url('https://tastykitchenbb.ccbp.tech/static/media/LoginImg.772d869c56219048bad2.png');
+  background-size: cover;
+  background-position: center; */
+}
+.login_page_image img {
+  height: 100%;
+  width: 100%;
+}
+.login_details {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: DM Sans;
+  padding: 5px 10px;
+  background-color: rgba(227, 227, 227, 0.479);
+  color: #693c08;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 10px auto 0;
+}
+
+/* Tablet styles */
+@media (min-width: 641px) and (max-width: 768px) {
+  .mobile_none {
+    display: none;
+  }
+  .login_page_image_mobile {
+    background-image: url('https://res.cloudinary.com/pavankalyanbandaru/image/upload/v1651081946/tasty-kitchens/login-mobile-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 360px;
+    width: 300px;
+    top: 0;
+    z-index: 99;
+    right: 0;
+  }
+  .login_block {
+    width: 100%;
+    height: 100vh;
+    align-items: flex-end;
+  }
+  .login_form {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: none;
+    padding: 24px 24px 58px;
+    align-items: stretch;
+  }
+  .login_heading {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: start;
+    margin-bottom: 48px;
+  }
+  .login_input {
+    width: 100%;
+  }
+}
+/* Landscape Mobile styles */
+@media (min-width: 426px) and (max-width: 640px) {
+  .mobile_none {
+    display: none;
+  }
+  .login_page_image_mobile {
+    background-image: url('https://res.cloudinary.com/pavankalyanbandaru/image/upload/v1651081946/tasty-kitchens/login-mobile-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 360px;
+    width: 300px;
+    top: 0;
+    z-index: 99;
+    right: 0;
+  }
+  .login_block {
+    width: 100%;
+    height: 100vh;
+    align-items: flex-end;
+  }
+  .login_form {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: none;
+    padding: 24px 24px 58px;
+    align-items: stretch;
+  }
+  .login_heading {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: start;
+    margin-bottom: 48px;
+  }
+  .login_input {
+    width: 100%;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 425px) {
+  .mobile_none {
+    display: none;
+  }
+  .login_page_image_mobile {
+    background-image: url('https://res.cloudinary.com/pavankalyanbandaru/image/upload/v1651081946/tasty-kitchens/login-mobile-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 360px;
+    width: 300px;
+    top: 0;
+    z-index: 99;
+    right: 0;
+  }
+  .login_block {
+    width: 100%;
+    height: 100vh;
+    align-items: flex-end;
+  }
+  .login_form {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: none;
+    padding: 24px 24px 58px;
+    align-items: stretch;
+  }
+  .login_heading {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: start;
+    margin-bottom: 48px;
+  }
+  .login_input {
+    width: 100%;
+  }
+}

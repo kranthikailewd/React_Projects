@@ -1,0 +1,22 @@
+.counter_group {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.counter_button {
+  width: 18px;
+  height: 18px;
+  opacity: 1;
+  border-radius: 2.25px;
+  border-width: 0.75px;
+  padding: 4.5px;
+  border: 0.75px solid #475569;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  color: #3e4c59;
+  flex-shrink: 0;
+}
