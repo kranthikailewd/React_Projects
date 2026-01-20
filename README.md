@@ -12,6 +12,7 @@ Click below to open any project live 🔗👇
 
 | # | ⚛️ Project Name | 🔗 Live Demo |
 |---|-----------------|---------------|
+| 54 | **Tasty Kitchens App** | [View Project](https://kranthikitchen.ccbp.tech/login) |
 | 53 | **NxtWatch Videos App** | [View Project](https://kranthinxtwatch.ccbp.tech/login) |
 | 52 | **NxtTrendz E-commerce App** | [View Project](https://kranthitrendz.ccbp.tech/login) |
 | 51 | **Rock Paper Scissors** | [View Project](https://yh4ymt.csb.app/) |
