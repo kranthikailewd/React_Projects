@@ -123,7 +123,7 @@ If you enjoyed these React projects or want to collaborate 🤝 —
 ⭐ **Star this repo** and drop your feedback!  
 
 Let’s connect:  
-🔗 [Portfolio](https://kranthikaile-portfolio.netlify.app/) | 💼 [LinkedIn](https://www.linkedin.com/in/kranthi-kaile/) | 🐙 [GitHub](https://github.com/kranthikailewd)
+🔗 [Portfolio](https://kranthikailewd.github.io/portfolio/) | 💼 [LinkedIn](https://www.linkedin.com/in/kranthi-kaile/) | 🐙 [GitHub](https://github.com/kranthikailewd)
 
 ---
 
